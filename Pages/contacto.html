@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="../IMG/rio.png" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <a href="../index.html"><img src="../imagenes/rio.png" alt="logo de la pagina" title="inicio" width="120" height="120"></a>
+        <h1>Bariloche</h1>
+        <ul>
+            <li>
+                <a href="gastronomia.html">Gastronomia</a>
+            </li>
+            <li>
+                <a href="alojamiento.html">Alojamiento</a>
+            </li>
+            <li>
+                <a href="actividades.html">Actividades</a>
+            </li>
+            <li>
+                <a href=#>Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <h2 id="contact">Contacto</h2>
+    <form action="#">
+        <fieldset>
+            <label for="name">Nombre y apellido</label>
+
+            <input type="text" name="nombre" id="name"></br>
+            
+            <label for="email">Email:</label>
+            
+            <input type="email" name="email" id="email"></br>
+            
+            <label for="tel">Ingrese su celular</label>
+            
+            <input type="tel" name="tel" id="tel"></br>
+
+            <label for="dni">Ingrese su DNI</label>
+            <input type="number" name="dni" id="dni"></br>
+            <label for="foto">agregar imagen de dni</label>
+            <input type="file" name="foto" id="foto"></br>
+            
+            <label>Es la primera vez que visita Bariloche</label>
+            <input type="radio" name="visita" id="si">
+            <label for="si">Si</label>
+            <input type="radio" name="visita" id="no">
+            <label for="no">No</label></br>
+
+            <label for="comentario">Deje un comentario contando su opinion sobre Bariloche</label></br>
+            <textarea name="viajero" id="comentario" cols="30" rows="10"></textarea></br>
+            <select name="tipo" id="tipo">
+                <option value="turista">Turista</option>
+                <option value="habitante">Habitante</option>
+            </select></br>
+            <label for="aceptacion">acepta recibir informacion mensual sobre Bariloche:</label>
+            <input type="checkbox" name="aceptacion" id="aceptacion"></br>
+            <input type="reset" value="Cancelar">
+            <input type="submit" value="Aceptar">
+        </fieldset>
+    </form>
+
+    <footer> 
+        <h4>Enlace externo</h4>
+        <p><a href="https://www.bariloche.gov.ar/">Municipalidad de Bariloche</a></p>
+        <a href=#>Inicio</a>
+    </footer>
+</body>
+</html>
