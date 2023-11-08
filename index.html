@@ -5,26 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="shortcut icon" href="img/rio.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-    <header>
-        <a href=#><img src="imagenes/rio.png" alt="logo de la pagina" title="inicio" width="120" height="120"></a>
-        <h1>Bariloche</h1>
-        <ul>
-            <li>
-                <a href="Pages/gastronomia.html">Gastronomia</a>
-            </li>
-            <li>
-                <a href="Pages/alojamiento.html">Alojamiento</a>
-            </li>
-            <li>
-                <a href="Pages/actividades.html">Actividades</a>
-            </li>
-            <li>
-                <a href="Pages/contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </header>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1 > Bariloche </h1>
+            </div>
+            <nav class="menu">
+                <ul>
+                    <li><a href="bariloche.html">Inicio</a></li>
+                    <li><a href="actividades.html">actividades </a></li>
+                    <li><a href="alojamiento.html">alojamiento</a></li>
+                    <li><a href="gastronomia.html">gastronomia</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                 </ul>
+            </nav>
+        </div>
+    </header><br>
+    
     <main>
         <section>
             <a href="imagenes/g1.7.webp"><img src="imagenes/g1.3.webp" alt="galeriabariloche" title="bariloche" width="300" height="188"></a>
@@ -101,10 +101,42 @@
             <p>Recibe anualmente turismo nacional e internacional, que se deleita en las múltiples actividades que ofrece esta ciudad al borde del lago Nahuel Huapi. El centro de esquí más importante de Argentina es el del cerro Catedral, ubicado a 20 km de San Carlos de Bariloche. Otro centro de esquí es el de cerro Otto, donde se practica esquí nórdico, también conocido como esquí de fondo o cross country.</p>
         </article>
     </main>
-    <footer>
-        <h4>Enlace externo</h4>
-        <p><a href="https://www.bariloche.gov.ar/">Municipalidad de Bariloche</a></p>
-        <a href=#>Inicio</a>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>San Carlos<span>Bariloche</span></h3>
+
+            <p class="footer-links">
+                <a href="bariloche.html">Inicio</a>
+                |
+                <a href="contacto.html">Contacto</a>
+            </p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>San Carlos de Bariloche</span>
+                    Bariloche</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p> 0294 4429850</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="infoturismomscb@bariloche.gov.ar">infoturismomscb@bariloche.gov.ar</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/BarilochePatagoniaArgentina/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/barilochear/"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/Bariloche_ar"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/c/BarilocheArgentina"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
     </footer>
     <!--Autores de la pagina: Thiago Corsino y Tiziana Farias-->
 </body>
