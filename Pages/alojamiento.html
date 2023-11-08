@@ -4,33 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alojamientos</title>
+    <link rel="shortcut icon" href="../imagenes/rio.png" type="image/x-icon">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="../CSS/styleActividades.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../CSS/styleAlojamiento.css">
 </head>
 <body> 
-    <header>
-        <a href="../index.html"><img src="../imagenes/rio.png" alt="logo de la pagina" title="inicio" width="120" height="120"></a>
-        <h1>Bariloche</h1>
-        <ul>
-            <li>
-                <a href="gastronomia.html">Gastronomia</a>
-            </li>
-            <li>
-                <a href=#>Alojamiento</a>
-            </li>
-            <li>
-                <a href="actividades.html">Actividades</a>
-            </li>
-            <li>
-                <a href="contacto.html">Contacto</a>
-            </li>
-        </ul>
-    </header>
+    <nav class="navbar navbar-expand-lg" id="navBar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Bariloche</a>
+          <button class="navbar-toggler ml-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="actividades.html">Actividades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gastronomia.html">Gastronomia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Alojamiento</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     <div>
-        <img src="../imagenes/alojamiento.webp" alt="alojamiento bariloche" title="alojamientos bariloche" width="700" height="311">
-        <h1>Hoteles en San Carlos de Bariloche</h1>
+        <div class="img">
+            <img src="../imagenes/alojamiento.webp" alt="alojamiento bariloche" title="alojamientos bariloche" width="700" height="311" id="imgHotel">
+        </div>
+        <h1 id="titulo">Hoteles en San Carlos de Bariloche</h1>
         <p>Mejores precios y ofertas de alojamiento baratos en San Carlos de Bariloche</p>
     </div>
     <div>
-        <h2>Ofertas de hoteles populares en San Carlos de Bariloche</h2>
+        <h2 id="titulo">Ofertas de hoteles populares en San Carlos de Bariloche</h2>
         <p>Estos son los hoteles mas elegidos. Encontra la mejor opcion para tu hospedaje</p>
         <table border="1">
             <caption>Hoteles</caption>
@@ -69,10 +86,44 @@
 
         </table>
     </div>
-    <footer>
-        <h4>Enlace externo</h4>
-        <p><a href="https://www.bariloche.gov.ar/">Municipalidad de Bariloche</a></p>
-        <a href=#>Inicio</a>
+    <footer class="footer-distributed">
+
+        <div class="footer-left">
+            <h3>San Carlos<span>Bariloche</span></h3>
+
+            <p class="footer-links">
+                <a href="../index.html">Inicio</a>
+                |
+                <a href="contacto.html">Contacto</a>
+            </p>
+        </div>
+
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>San Carlos de Bariloche</span>
+                    Bariloche</p>
+            </div>
+
+            <div>
+                <i class="fa fa-phone"></i>
+                <p> 0294 4429850</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="infoturismomscb@bariloche.gov.ar">infoturismomscb@bariloche.gov.ar</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <div class="footer-icons">
+                <a href="https://www.facebook.com/BarilochePatagoniaArgentina/"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.instagram.com/barilochear/"><i class="fa fa-instagram"></i></a>
+                <a href="https://twitter.com/Bariloche_ar"><i class="fa fa-twitter"></i></a>
+                <a href="https://www.youtube.com/c/BarilocheArgentina"><i class="fa fa-youtube"></i></a>
+            </div>
+        </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
