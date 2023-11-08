@@ -1,5 +1,6 @@
 body{
     background-color: #e3d7d7;
+    
 }
 *{
     margin: 0;
@@ -50,6 +51,33 @@ p{
     text-align: center;
 }
 
+
+/* Estilos para centrar el formulario 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+*/
+
+form {
+    text-align: center; /* Alinea el texto y los elementos del formulario al centro */
+}
+
+/* Estilos adicionales para los elementos del formulario (puedes personalizarlos según tu preferencia) */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+input,
+textarea,
+select {
+    margin-bottom: 10px;
+}
 
 
 /*footer*/
