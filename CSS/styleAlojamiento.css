@@ -1,4 +1,6 @@
-body{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+#body{
     background-color: #e3d7d7;
 }
 *{
@@ -10,44 +12,49 @@ body{
     background: #afc7d0;
     margin-bottom: auto;
 }
-#titulo{
+#descrip{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 30px;
+    color: #0f8698;
+    text-align: center;
+}
+h2{
     text-align: center;
     color: #0f8698;
-    font-size: 40px;
-}
-h2,
-h3{
-    text-align: center;
-    color: #0f8698;
-    font-size: 40px;
-}
-
-.img{
-    text-align: center;
-}
-
-
-#info{
-    
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-a{
-    text-decoration: none;
-    color: #4b8e98;
+    font-size: 30px;
 }
 p{
 
     font-family: 'Poppins', sans-serif;
-    /*font-family: 'Kay Pho Du', serif;*/
-    /*font-family: 'Edu TAS Beginner', cursive;*/
-    /*font-family: 'Playfair Display', serif;*/
+    text-align: center;
     font-size: 25px;
     
 }
+.imagen{
+    margin: auto;
+    width: 700px;
+    height: 488px;
+    display: flex;
+    padding: 50px; ;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(0 0 0 /.5),rgb(0 0 0 /.5) ), url(../imagenes/alojamiento.webp);
+    background-size: cover;
+    background-position: center;
 
-.center,
-p{
+}
+#titulo{
+    margin: auto;
+    padding: 50px;
     text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+}
+#fontf{
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 /*footer*/
