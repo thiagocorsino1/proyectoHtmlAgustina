@@ -25,33 +25,22 @@ body{
     color: #0f8698;
     font-size: 40px;
 }
-#titul{
-    font-size: 25px;
-    margin-left: 200px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#descrip{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: 30px;
+    color: #50686c;
+    text-align: center;
 }
-.letras{
+.sub{
     text-align: center;
     color: #0f8698;
-    font-size: 40px;
-}
-.decoration{
-    text-decoration: none;
-    color: #4b8e98;
 }
 p{
 
     font-family: 'Poppins', sans-serif;
-    /*font-family: 'Kay Pho Du', serif;*/
-    /*font-family: 'Edu TAS Beginner', cursive;*/
-    /*font-family: 'Playfair Display', serif;*/
-    font-size: 25px;
-    
-}
-
-.center,
-p{
     text-align: center;
+    font-size: 15px;
+    
 }
 /*footer*/
 
