@@ -1,10 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kay+Pho+Du:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+
+body{
+    background-color: #e3d7d7;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
 
 #navBar{
     background: #afc7d0;
     margin-bottom: auto;
 }
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+
+#titulo{
+    text-align: center;
+    color: #0f8698;
+    font-size: 40px;
+}
+#titul{
+    font-size: 25px;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.letras{
+    text-align: center;
+    color: #0f8698;
+    font-size: 40px;
+}
+.decoration{
+    text-decoration: none;
+    color: #4b8e98;
+}
+p{
+
+    font-family: 'Poppins', sans-serif;
+    /*font-family: 'Kay Pho Du', serif;*/
+    /*font-family: 'Edu TAS Beginner', cursive;*/
+    /*font-family: 'Playfair Display', serif;*/
+    font-size: 25px;
+    
+}
+
+.center,
+p{
+    text-align: center;
+}
+/**/
+#navBar{
+    background: #afc7d0;
+    margin-bottom: auto;
+}
 
 :root {
     --green: hsl(162, 45%, 56%);
@@ -25,39 +78,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
-    background-color: var(--body-bg-color);
-    overflow-x: hidden;
-
-}
-
-body::after,
-body::before {
-    content: '';
-    position: fixed;
-    height: 400px;
-    width: 400px;
-    border-radius: 50%;
-    z-index: -1;
-    filter: blur(150px);
-    opacity: 0.5;
-}
-
-body::before {
-    background-color: var(--blue);
-    left: 0;
-    bottom: 0;
-    transform: translate(-50%);
-}
-
-body::after {
-    background-color: var(--violet);
-    right: 0;
-    top: 0;
-    transform: translate(50%);
-}
-
 a {
     text-decoration: none;
     font-weight: 500;
